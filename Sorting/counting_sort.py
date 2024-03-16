@@ -1,6 +1,6 @@
 # How do you implement a counting sort algorithm? (solution)
 
-def countingSort(arr):
+def counting_sort(arr):
     size = len(arr)
     output = [0] * size
 
@@ -26,6 +26,6 @@ def countingSort(arr):
         arr[m] = output[m]
 
 data = [3,5,1,6,7,8,3]
-countingSort(data)
+counting_sort(data)
 print("Sorted Array: ")
 print(data)
